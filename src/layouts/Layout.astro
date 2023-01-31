@@ -1,7 +1,4 @@
 ---
-import Navbar from "../components/Navbar.astro";
-import "@fontsource/open-sans/variable.css";
-
 export interface Props {
   title: string;
 }
@@ -18,7 +15,16 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <Navbar />
+    <nav class="w-screen bg-black/25 shadow-md">
+      <div
+        class="max-w-screen-lg px-2 mx-auto flex justify-between items-center h-16"
+      >
+        <a href="/" class="sm:text-4xl text-3xl font-bold">PHS Web Dev</a>
+        <div class="flex gap-2">
+          <a href="/schedule" class="text-xl text-white/75">Schedule</a>
+        </div>
+      </div>
+    </nav>
     <slot />
   </body>
 </html>
@@ -26,10 +32,5 @@ const { title } = Astro.props;
   html {
     @apply bg-neutral-900 text-white;
     font-family: "Open Sans", sans-serif;
-  }
-
-  .bold {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
   }
 </style>
