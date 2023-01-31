@@ -1,0 +1,35 @@
+---
+import Navbar from "../components/Navbar.astro";
+import "@fontsource/open-sans/variable.css";
+
+export interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Navbar />
+    <slot />
+  </body>
+</html>
+<style is:global>
+  html {
+    @apply bg-neutral-900 text-white;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+</style>

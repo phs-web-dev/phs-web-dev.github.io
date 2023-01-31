@@ -1,0 +1,60 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import schedule from "./schedule.json";
+
+const dateNow = new Date().toLocaleString("en-US", {
+  timeZone: "America/New_York",
+  day: "numeric",
+  month: "numeric",
+});
+
+const secondsToTime = (seconds: string | number) => {
+  seconds = Number(seconds);
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const ampm = hours >= 12 ? "PM" : "AM";
+  const hours12 = hours % 12 || 12;
+  const minutesStr = minutes.toString().padStart(2, "0");
+  return `${hours12}:${minutesStr} ${ampm}`;
+};
+
+type Period = [string, [number, string]];
+
+const scheduleToday =
+  dateNow in schedule ? schedule[dateNow as keyof typeof schedule] : null;
+---
+
+<Layout title="PHS Web Dev">
+  <main class="max-w-screen-lg px-2 mx-auto">
+    <section class="mt-16">
+      <h1 class="text-5xl bold">PHS Schedule</h1>
+    </section>
+
+    <section class="mt-8">
+      {
+        scheduleToday ? (
+          <>
+            <h1 class="text-4xl bold">Today's Schedule Type</h1>
+            <h2 class="text-4xl mt-3">{scheduleToday[0]}</h2>
+            <div class="mt-5">
+              {Object.entries(scheduleToday[1]).map(
+                ([startTime, [endTime, period]]: Period) => (
+                  <div class="mt-3 flex justify-between">
+                    <h1 class="text-3xl bold">{period}</h1>
+                    <div class="flex gap-2">
+                      <h1 class="text-3xl">{secondsToTime(startTime)}</h1>
+                      <h1 class="text-3xl">→</h1>
+                      <h1 class="text-3xl">{secondsToTime(endTime)}</h1>
+                    </div>
+                  </div>
+                )
+              )}
+            </div>
+          </>
+        ) : (
+          <h1 class="text-5xl bold">No School Today</h1>
+        )
+      }
+    </section>
+  </main>
+</Layout>
