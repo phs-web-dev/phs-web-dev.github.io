@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import schedule from "./schedule.json";
+import schedules from "./schedules.json";
 
 const dateNow = new Date().toLocaleString("en-US", {
   timeZone: "America/New_York",
@@ -8,8 +8,7 @@ const dateNow = new Date().toLocaleString("en-US", {
   month: "numeric",
 });
 
-const secondsToTime = (seconds: string | number) => {
-  seconds = Number(seconds);
+const secondsToTime = (seconds: number) => {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor((seconds % 3600) / 60);
   const ampm = hours >= 12 ? "pm" : "am";
@@ -18,10 +17,8 @@ const secondsToTime = (seconds: string | number) => {
   return `${hours12}:${minutesStr} ${ampm}`;
 };
 
-type Period = [string, [number, string]];
-
 const scheduleToday =
-  dateNow in schedule ? schedule[dateNow as keyof typeof schedule] : null;
+  dateNow in schedules ? schedules[dateNow as keyof typeof schedules] : null;
 ---
 
 <Layout title="PHS Web Dev">
@@ -29,6 +26,137 @@ const scheduleToday =
     <section class="sm:mt-16 mt-8">
       <h1 class="sm:text-5xl text-4xl font-bold">PHS Schedule</h1>
     </section>
+    <section class="sm:mt-8 mt-4">
+      <astro-countdown data-schedule={JSON.stringify(scheduleToday)}>
+        <h1 class="text-4xl font-bold text-center" id="header">LOADING</h1>
+        <div class="flex justify-center" id="counter" style="display:none">
+          <h1 class="text-6xl" id="hours">00</h1>
+          <h1 class="text-6xl">:</h1>
+          <h1 class="text-6xl" id="minutes">00</h1>
+          <h1 class="text-6xl">:</h1>
+          <h1 class="text-6xl" id="seconds">00</h1>
+        </div>
+      </astro-countdown>
+
+      <script>
+        class AstroCountdown extends HTMLElement {
+          constructor() {
+            super();
+
+            const header = this.querySelector("#header") as HTMLElement;
+            const counter = this.querySelector("#counter") as HTMLElement;
+            const counterHours = counter.querySelector("#hours") as HTMLElement;
+            const counterMinutes = counter.querySelector(
+              "#minutes"
+            ) as HTMLElement;
+            const counterSeconds = counter.querySelector(
+              "#seconds"
+            ) as HTMLElement;
+
+            interface Schedule {
+              type: string;
+              periods: {
+                period: string;
+                startTime: number;
+                endTime: number;
+              }[];
+            }
+
+            const scheduleToday: Schedule | null = JSON.parse(
+              this.dataset.schedule as string
+            );
+
+            if (!scheduleToday) {
+              header.textContent = "No School Today";
+              return;
+            }
+
+            const { periods } = scheduleToday;
+            const schoolStartTime = periods[0].startTime;
+            const schoolEndTime = periods[periods.length - 1].endTime;
+
+            const dateNow = new Date();
+            const estDate = new Date(
+              dateNow.toLocaleString("en-US", { timeZone: "America/New_York" })
+            );
+            const midnightEST = new Date(
+              estDate.getFullYear(),
+              estDate.getMonth(),
+              estDate.getDate()
+            );
+            let secondsNow = Math.floor(
+              (dateNow.getTime() - midnightEST.getTime()) / 1000
+            );
+
+            if (secondsNow > schoolEndTime) {
+              header.textContent = "School Is Over";
+              return;
+            }
+
+            let hours: number;
+            let minutes: number;
+            let seconds: number;
+            let secondsUntil: number;
+
+            counter.style.display = "flex";
+
+            const countdownIntervalID = setInterval(() => {
+              if (secondsNow < schoolStartTime) {
+                // Before School
+                header.textContent = "School Will Start In";
+                secondsUntil = schoolStartTime - secondsNow;
+              } else {
+                if (secondsNow > schoolEndTime) {
+                  // After School
+                  header.textContent = "School Is Over";
+                  clearInterval(countdownIntervalID);
+                  counter.style.display = "none";
+                  return;
+                }
+                // During School
+                const currentPeriod = periods.find(
+                  ({ startTime, endTime }) =>
+                    secondsNow >= startTime && secondsNow < endTime
+                );
+
+                const nextPeriod = periods.find(
+                  ({ startTime }) => secondsNow < startTime
+                );
+
+                if (!currentPeriod) {
+                  // Transition
+                  if (!nextPeriod) {
+                    // Last Period
+                    header.textContent = `School Will End In`;
+                    secondsUntil = schoolEndTime - secondsNow;
+                  } else {
+                    // Between Periods
+                    header.textContent = `${nextPeriod.period} Will Start In`;
+                    secondsUntil = nextPeriod.startTime - secondsNow;
+                  }
+                } else {
+                  // In Period
+                  header.textContent = `${currentPeriod.period} Will End In`;
+                  secondsUntil = currentPeriod.endTime - secondsNow;
+                }
+              }
+
+              hours = Math.floor(secondsUntil / 3600);
+              minutes = Math.floor((secondsUntil % 3600) / 60);
+              seconds = secondsUntil % 60;
+
+              counterHours.textContent = hours.toString().padStart(2, "0");
+              counterMinutes.textContent = minutes.toString().padStart(2, "0");
+              counterSeconds.textContent = seconds.toString().padStart(2, "0");
+              secondsNow += 1;
+            }, 1000);
+          }
+        }
+
+        customElements.define("astro-countdown", AstroCountdown);
+      </script>
+    </section>
+
     <section class="sm:mt-8 mt-4">
       {
         scheduleToday ? (
@@ -44,24 +172,22 @@ const scheduleToday =
                 })}
               </h1>
             </div>
-            <h2 class="text-4xl mt-4">{scheduleToday[0]}</h2>
+            <h2 class="text-4xl mt-4">{scheduleToday.type}</h2>
             <div class="mt-5">
-              {Object.entries(scheduleToday[1]).map(
-                ([startTime, [endTime, period]]: Period) => (
-                  <div class="mt-3 flex justify-between items-center">
-                    <h1 class="sm:text-3xl text-2xl font-bold">{period}</h1>
-                    <div class="flex sm:gap-2 gap-1">
-                      <h1 class="sm:text-3xl text-xl">
-                        {secondsToTime(startTime)}
-                      </h1>
-                      <h1 class="sm:text-3xl text-xl">→</h1>
-                      <h1 class="sm:text-3xl text-xl">
-                        {secondsToTime(endTime)}
-                      </h1>
-                    </div>
+              {scheduleToday.periods.map(({ period, startTime, endTime }) => (
+                <div class="mt-3 flex justify-between items-center">
+                  <h1 class="sm:text-3xl text-2xl font-bold">{period}</h1>
+                  <div class="flex sm:gap-2 gap-1">
+                    <h1 class="sm:text-3xl text-xl">
+                      {secondsToTime(startTime)}
+                    </h1>
+                    <h1 class="sm:text-3xl text-xl">→</h1>
+                    <h1 class="sm:text-3xl text-xl">
+                      {secondsToTime(endTime)}
+                    </h1>
                   </div>
-                )
-              )}
+                </div>
+              ))}
             </div>
           </>
         ) : (

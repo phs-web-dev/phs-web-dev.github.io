@@ -1,0 +1,5777 @@
+{
+    "1/30": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "1/31": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/1": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/2": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/3": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/6": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/7": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/8": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/9": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/10": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/13": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/14": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/15": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/16": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/17": {
+        "type": "FT7 (No Eighth)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            }
+        ]
+    },
+    "2/20": {
+        "type": "No School President’s Day (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/21": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/22": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/23": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/24": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/27": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "2/28": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/1": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/2": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/3": {
+        "type": "Early Release Interims due 5pm",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29460,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 29820,
+                "endTime": 31380,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 31740,
+                "endTime": 33300,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 35220,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 35580,
+                "endTime": 37140,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 37500,
+                "endTime": 39060,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40980,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 40980,
+                "endTime": 43080,
+                "period": "Lunch"
+            }
+        ]
+    },
+    "3/6": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/7": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/8": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/9": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/10": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/13": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/14": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/15": {
+        "type": "Early Release",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29460,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 29820,
+                "endTime": 31380,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 31740,
+                "endTime": 33300,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 35220,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 35580,
+                "endTime": 37140,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 37500,
+                "endTime": 39060,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40980,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 40980,
+                "endTime": 43080,
+                "period": "Lunch"
+            }
+        ]
+    },
+    "3/16": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/17": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/20": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/21": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/22": {
+        "type": "Adv. Spring SAT School Day",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/23": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/24": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/27": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/28": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/29": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "3/30": {
+        "type": "FT7 Last Day of MP3 (No Eighth)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            }
+        ]
+    },
+    "3/31": {
+        "type": "(M) Professional Day End of MP3 (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/3": {
+        "type": "(M) Spring Break Ramadan (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/4": {
+        "type": "(M) Spring Break Ramadan (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/5": {
+        "type": "Spring Break Ramadan, Passover (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/6": {
+        "type": "Spring Break Ramadan, Passover (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/7": {
+        "type": "Spring Break Ramadan, Passover (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/10": {
+        "type": "Spring Break Ramadan, Passover (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/11": {
+        "type": "FT1 Ramadan, Passover",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/12": {
+        "type": "Adv. Ramadan, Passover No testing allowed",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/13": {
+        "type": "FT2 Ramadan, Passover No testing allowed",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/14": {
+        "type": "Pep Rally Ramadan No testing allowed (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/17": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/18": {
+        "type": "FT4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/19": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/20": {
+        "type": "FT5 (No Eighth)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            }
+        ]
+    },
+    "4/21": {
+        "type": "(M) Professional Day Eid al Fitr (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/24": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/25": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/26": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/27": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "4/28": {
+        "type": "FT2 No HW weekend",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/1": {
+        "type": "FT3 US Gov (am) Chem, Spanish Lit (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/2": {
+        "type": "FT4 Chinese, Env. Sci (am) Psychology (pm) Senior interims 5pm",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/3": {
+        "type": "Adv. English Lit (am) Comp Gov, Comp Sci (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/4": {
+        "type": "FT5 Human Geo, Macro (am) Seminar, Stat (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/5": {
+        "type": "FT6 Euro & Am History (am) Art History, Micro (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/8": {
+        "type": "FT7 Calc AB/BC (am) Com Sci Princ, Italian (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/9": {
+        "type": "FT1 Eng Lang, Japanese (am) Physics C Mech, Elec & Mag (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/10": {
+        "type": "Adv. Spanish Lang (am) Bio (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/11": {
+        "type": "FT2 French, Mod World (am) Physics 1 Alg based (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/12": {
+        "type": "FT3 German, Music Theory (am) Physics 2 Alg based (pm)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/15": {
+        "type": "FT4 Interims due",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/16": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/17": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/18": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/19": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/22": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/23": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/24": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/25": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/26": {
+        "type": "FT4 No testing allowed (No Eighth)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            }
+        ]
+    },
+    "5/29": {
+        "type": "No School Memorial Day (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/30": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "5/31": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/1": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/2": {
+        "type": "FT7",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/5": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/6": {
+        "type": "FT2",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 34800,
+                "period": "FIT"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/7": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/8": {
+        "type": "FT3",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36540,
+                "endTime": 37680,
+                "period": "FIT"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/9": {
+        "type": "FT4 (No Eighth)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40560,
+                "period": "FIT"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            }
+        ]
+    },
+    "6/12": {
+        "type": "FT5",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45300,
+                "endTime": 46440,
+                "period": "FIT"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/13": {
+        "type": "FT6",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48180,
+                "endTime": 49320,
+                "period": "FIT"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/14": {
+        "type": "Adv.",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30600,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30900,
+                "endTime": 33420,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33720,
+                "endTime": 35220,
+                "period": "Advisory in Homeroom"
+            },
+            {
+                "startTime": 35520,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40860,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40860,
+                "endTime": 43740,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 44040,
+                "endTime": 46560,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46860,
+                "endTime": 49380,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49680,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/15": {
+        "type": "FT7 Last day of MP4",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 31080,
+                "endTime": 33660,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 33960,
+                "endTime": 36540,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 36840,
+                "endTime": 39420,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 42420,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 42720,
+                "endTime": 45300,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 45600,
+                "endTime": 48180,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 48480,
+                "endTime": 51060,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 51060,
+                "endTime": 52200,
+                "period": "FIT"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/16": {
+        "type": "Last Day Early Release",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29460,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 29820,
+                "endTime": 31380,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 31740,
+                "endTime": 33300,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 33660,
+                "endTime": 35220,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 35580,
+                "endTime": 37140,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 37500,
+                "endTime": 39060,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 39420,
+                "endTime": 40980,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 40980,
+                "endTime": 43080,
+                "period": "Lunch"
+            }
+        ]
+    },
+    "6/19": {
+        "type": "MCPS Closed Juneteenth (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/20": {
+        "type": "(M) Professional Day (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/21": {
+        "type": "(M) (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/22": {
+        "type": "(M) (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "6/23": {
+        "type": "(M) (Showing Homeroom Schedule)",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 29400,
+                "period": "Homeroom"
+            },
+            {
+                "startTime": 29700,
+                "endTime": 32280,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 32580,
+                "endTime": 35160,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35460,
+                "endTime": 38040,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 38340,
+                "endTime": 40920,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40920,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    },
+    "10/16": {
+        "type": "FT1",
+        "periods": [
+            {
+                "startTime": 27900,
+                "endTime": 30780,
+                "period": "Period 1"
+            },
+            {
+                "startTime": 30780,
+                "endTime": 31920,
+                "period": "FIT"
+            },
+            {
+                "startTime": 32220,
+                "endTime": 34800,
+                "period": "Period 2"
+            },
+            {
+                "startTime": 35100,
+                "endTime": 37680,
+                "period": "Period 3"
+            },
+            {
+                "startTime": 37980,
+                "endTime": 40560,
+                "period": "Period 4"
+            },
+            {
+                "startTime": 40560,
+                "endTime": 43560,
+                "period": "Lunch"
+            },
+            {
+                "startTime": 43860,
+                "endTime": 46440,
+                "period": "Period 5"
+            },
+            {
+                "startTime": 46740,
+                "endTime": 49320,
+                "period": "Period 6"
+            },
+            {
+                "startTime": 49620,
+                "endTime": 52200,
+                "period": "Period 7"
+            },
+            {
+                "startTime": 52620,
+                "endTime": 55500,
+                "period": "Period 8"
+            }
+        ]
+    }
+}
