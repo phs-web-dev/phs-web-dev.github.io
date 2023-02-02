@@ -27,7 +27,10 @@ const scheduleToday =
       <h1 class="sm:text-5xl text-4xl font-bold">PHS Schedule</h1>
     </section>
     <section class="sm:mt-8 mt-4 bg-neutral-800/25 rounded-md p-5 shadow-md">
-      <astro-countdown data-schedule={JSON.stringify(scheduleToday)}>
+      <astro-countdown
+        data-schedule={JSON.stringify(scheduleToday)}
+        data-date={dateNow}
+      >
         <h1 class="sm:text-4xl text-2xl font-bold text-center" id="header">
           LOADING
         </h1>
@@ -92,7 +95,20 @@ const scheduleToday =
         if (!scheduleToday) {
           header.textContent = "No School Today";
           counter.style.display = "none";
+          return;
+        }
 
+        const date = this.dataset.date;
+
+        const todayDate = new Date().toLocaleString("en-US", {
+          timeZone: "America/New_York",
+          day: "numeric",
+          month: "numeric",
+        });
+
+        if (date !== todayDate) {
+          header.textContent = "School Is Over";
+          counter.style.display = "none";
           return;
         }
 
