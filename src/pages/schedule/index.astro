@@ -22,7 +22,7 @@ const scheduleToday =
 ---
 
 <Layout title="PHS Web Dev">
-  <main class="max-w-screen-lg px-2 mx-auto ">
+  <main class="max-w-screen-lg px-2 mx-auto">
     <section class="sm:mt-16 mt-8">
       <h1 class="sm:text-5xl text-4xl font-bold">PHS Schedule</h1>
     </section>
@@ -39,119 +39,6 @@ const scheduleToday =
           <h1 class="text-6xl" id="seconds">00</h1>
         </div>
       </astro-countdown>
-
-      <script>
-        class AstroCountdown extends HTMLElement {
-          constructor() {
-            super();
-
-            const header = this.querySelector("#header") as HTMLElement;
-
-            const scheduleToday: Schedule | null = JSON.parse(
-              this.dataset.schedule as string
-            );
-            const counter = this.querySelector("#counter") as HTMLElement;
-
-            if (!scheduleToday) {
-              header.textContent = "No School Today";
-              counter.style.display = "none";
-
-              return;
-            }
-
-            const counterHours = counter.querySelector("#hours") as HTMLElement;
-            const counterMinutes = counter.querySelector(
-              "#minutes"
-            ) as HTMLElement;
-            const counterSeconds = counter.querySelector(
-              "#seconds"
-            ) as HTMLElement;
-
-            interface Schedule {
-              type: string;
-              periods: {
-                period: string;
-                startTime: number;
-                endTime: number;
-              }[];
-            }
-
-            const { periods } = scheduleToday;
-            const schoolStartTime = periods[0].startTime;
-            const schoolEndTime = periods[periods.length - 1].endTime;
-
-            const dateNow = new Date();
-            const timeZoneoffset = -300; // Time zone offset in minutes for Eastern Time
-            const midnightEST = new Date(
-              dateNow.getFullYear(),
-              dateNow.getMonth(),
-              dateNow.getDate()
-            );
-            let secondsNow = Math.floor(
-              (dateNow.getTime() +
-                (dateNow.getTimezoneOffset() + timeZoneoffset) * 60 * 1000 -
-                midnightEST.getTime()) /
-                1000
-            );
-
-            const updateCountdown = () => {
-              let headerText: string;
-              let secondsUntil: number;
-
-              if (secondsNow < schoolStartTime) {
-                headerText = "School Will Start In";
-                secondsUntil = schoolStartTime - secondsNow;
-              } else if (secondsNow < schoolEndTime) {
-                const currentPeriod = periods.find(
-                  ({ startTime, endTime }) =>
-                    secondsNow >= startTime && secondsNow < endTime
-                );
-
-                if (currentPeriod) {
-                  headerText = `${currentPeriod.period} Will End In`;
-                  secondsUntil = currentPeriod.endTime - secondsNow;
-                } else {
-                  const nextPeriod = periods.find(
-                    ({ startTime }) => secondsNow < startTime
-                  );
-                  if (nextPeriod) {
-                    headerText = `${nextPeriod.period} Will Start In`;
-                    secondsUntil = nextPeriod.startTime - secondsNow;
-                  } else {
-                    headerText = "School Is Over";
-                    header.textContent = headerText;
-                    clearInterval(countdownIntervalID);
-                    counter.style.display = "none";
-                    return;
-                  }
-                }
-              } else {
-                headerText = "School Is Over";
-                header.textContent = headerText;
-                clearInterval(countdownIntervalID);
-                counter.style.display = "none";
-
-                return;
-              }
-
-              header.textContent = headerText;
-              const hours = Math.floor(secondsUntil / 3600);
-              const minutes = Math.floor((secondsUntil % 3600) / 60);
-              const seconds = secondsUntil % 60;
-
-              counterHours.textContent = hours.toString().padStart(2, "0");
-              counterMinutes.textContent = minutes.toString().padStart(2, "0");
-              counterSeconds.textContent = seconds.toString().padStart(2, "0");
-              secondsNow += 1;
-            };
-            const countdownIntervalID = setInterval(updateCountdown, 1000);
-
-            updateCountdown();
-          }
-        }
-
-        customElements.define("astro-countdown", AstroCountdown);
-      </script>
     </section>
 
     <section class="sm:mt-8 mt-4">
@@ -177,11 +64,9 @@ const scheduleToday =
               {scheduleToday.periods.map(({ period, startTime, endTime }) => (
                 <div class="sm:my-4 my-2 first:mt-0 last:mb-0 flex justify-between items-center">
                   <h1 class="sm:text-3xl text-2xl font-bold">{period}</h1>
-                  <div class="flex sm:gap-2 gap-1">
-                    <h1 class="sm:text-3xl text-xl text-white/75">
-                      {secondsToTime(startTime)} → {secondsToTime(endTime)}
-                    </h1>
-                  </div>
+                  <h1 class="sm:text-3xl text-xl text-white/75">
+                    {secondsToTime(startTime)} → {secondsToTime(endTime)}
+                  </h1>
                 </div>
               ))}
             </div>
@@ -192,4 +77,113 @@ const scheduleToday =
       }
     </section>
   </main>
+  <script>
+    class AstroCountdown extends HTMLElement {
+      constructor() {
+        super();
+
+        const header = this.querySelector("#header") as HTMLElement;
+
+        const scheduleToday: Schedule | null = JSON.parse(
+          this.dataset.schedule as string
+        );
+        const counter = this.querySelector("#counter") as HTMLElement;
+
+        if (!scheduleToday) {
+          header.textContent = "No School Today";
+          counter.style.display = "none";
+
+          return;
+        }
+
+        const counterHours = counter.querySelector("#hours") as HTMLElement;
+        const counterMinutes = counter.querySelector("#minutes") as HTMLElement;
+        const counterSeconds = counter.querySelector("#seconds") as HTMLElement;
+
+        interface Schedule {
+          type: string;
+          periods: {
+            period: string;
+            startTime: number;
+            endTime: number;
+          }[];
+        }
+
+        const { periods } = scheduleToday;
+        const schoolStartTime = periods[0].startTime;
+        const schoolEndTime = periods[periods.length - 1].endTime;
+
+        const getSeconds = () => {
+          const dateNow = new Date();
+          const timeZoneoffset = -300; // Time zone offset in minutes for Eastern Time
+          const midnightEST = new Date(
+            dateNow.getFullYear(),
+            dateNow.getMonth(),
+            dateNow.getDate()
+          );
+          return Math.floor(
+            (dateNow.getTime() +
+              (dateNow.getTimezoneOffset() + timeZoneoffset) * 60 * 1000 -
+              midnightEST.getTime()) /
+              1000
+          );
+        };
+
+        const updateCountdown = () => {
+          let headerText: string;
+          let secondsUntil: number;
+          const secondsNow = getSeconds();
+
+          if (secondsNow < schoolStartTime) {
+            headerText = "School Will Start In";
+            secondsUntil = schoolStartTime - secondsNow;
+          } else if (secondsNow < schoolEndTime) {
+            const currentPeriod = periods.find(
+              ({ startTime, endTime }) =>
+                secondsNow >= startTime && secondsNow < endTime
+            );
+
+            if (currentPeriod) {
+              headerText = `${currentPeriod.period} Will End In`;
+              secondsUntil = currentPeriod.endTime - secondsNow;
+            } else {
+              const nextPeriod = periods.find(
+                ({ startTime }) => secondsNow < startTime
+              );
+              if (nextPeriod) {
+                headerText = `${nextPeriod.period} Will Start In`;
+                secondsUntil = nextPeriod.startTime - secondsNow;
+              } else {
+                headerText = "School Is Over";
+                header.textContent = headerText;
+                clearInterval(countdownIntervalID);
+                counter.style.display = "none";
+                return;
+              }
+            }
+          } else {
+            headerText = "School Is Over";
+            header.textContent = headerText;
+            clearInterval(countdownIntervalID);
+            counter.style.display = "none";
+            return;
+          }
+
+          header.textContent = headerText;
+          const hours = Math.floor(secondsUntil / 3600);
+          const minutes = Math.floor((secondsUntil % 3600) / 60);
+          const seconds = secondsUntil % 60;
+
+          counterHours.textContent = hours.toString().padStart(2, "0");
+          counterMinutes.textContent = minutes.toString().padStart(2, "0");
+          counterSeconds.textContent = seconds.toString().padStart(2, "0");
+        };
+        const countdownIntervalID = setInterval(updateCountdown, 1000);
+
+        updateCountdown();
+      }
+    }
+
+    customElements.define("astro-countdown", AstroCountdown);
+  </script>
 </Layout>
