@@ -110,7 +110,7 @@
         ]
     },
     "2/1": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -125,7 +125,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -385,7 +385,7 @@
         ]
     },
     "2/8": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -400,7 +400,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -660,7 +660,7 @@
         ]
     },
     "2/15": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -675,7 +675,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -930,7 +930,7 @@
         ]
     },
     "2/22": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -945,7 +945,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -1205,7 +1205,7 @@
         ]
     },
     "3/1": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -1220,7 +1220,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -1470,7 +1470,7 @@
         ]
     },
     "3/8": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -1485,7 +1485,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -2010,7 +2010,7 @@
         ]
     },
     "3/22": {
-        "type": "Adv. Spring SAT School Day",
+        "type": "Advisory Spring SAT School Day",
         "periods": [
             {
                 "startTime": 27900,
@@ -2025,7 +2025,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -2285,7 +2285,7 @@
         ]
     },
     "3/29": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -2300,7 +2300,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -2830,7 +2830,7 @@
         ]
     },
     "4/12": {
-        "type": "Adv. Ramadan, Passover No testing allowed",
+        "type": "Advisory Ramadan, Passover No testing allowed",
         "periods": [
             {
                 "startTime": 27900,
@@ -2845,7 +2845,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -3105,7 +3105,7 @@
         ]
     },
     "4/19": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -3120,7 +3120,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -3375,7 +3375,7 @@
         ]
     },
     "4/26": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -3390,7 +3390,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -3650,7 +3650,7 @@
         ]
     },
     "5/3": {
-        "type": "Adv. English Lit (am) Comp Gov, Comp Sci (pm)",
+        "type": "Advisory English Lit (am) Comp Gov, Comp Sci (pm)",
         "periods": [
             {
                 "startTime": 27900,
@@ -3665,7 +3665,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -3925,7 +3925,7 @@
         ]
     },
     "5/10": {
-        "type": "Adv. Spanish Lang (am) Bio (pm)",
+        "type": "Advisory Spanish Lang (am) Bio (pm)",
         "periods": [
             {
                 "startTime": 27900,
@@ -3940,7 +3940,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -4200,7 +4200,7 @@
         ]
     },
     "5/17": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -4215,7 +4215,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -4475,7 +4475,7 @@
         ]
     },
     "5/24": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -4490,7 +4490,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -4745,7 +4745,7 @@
         ]
     },
     "5/31": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -4760,7 +4760,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -5020,7 +5020,7 @@
         ]
     },
     "6/7": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -5035,7 +5035,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
@@ -5290,7 +5290,7 @@
         ]
     },
     "6/14": {
-        "type": "Adv.",
+        "type": "Advisory",
         "periods": [
             {
                 "startTime": 27900,
@@ -5305,7 +5305,7 @@
             {
                 "startTime": 33720,
                 "endTime": 35220,
-                "period": "Advisory in Homeroom"
+                "period": "Advisory"
             },
             {
                 "startTime": 35520,
