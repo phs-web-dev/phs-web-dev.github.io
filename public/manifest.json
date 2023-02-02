@@ -21,10 +21,10 @@
     ],
     "id": "/?source=pwa",
     "start_url": "/?source=pwa",
-    "background_color": "#171717",
+    "background_color": "#1B1B1B",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#171717",
+    "theme_color": "#1B1B1B",
     "shortcuts": [
         {
             "name": "Poolesville High School Schedule",
