@@ -1,4 +1,4 @@
-/// <reference types="astro/client" />
+/// <reference types="@astrojs/image/client" />
 
 import type JSConfetti from "js-confetti";
 
@@ -7,6 +7,7 @@ declare global {
     jsConfetti: JSConfetti;
   }
 
+  // 
   interface Schedule {
     type: string;
     periods: Period[];
