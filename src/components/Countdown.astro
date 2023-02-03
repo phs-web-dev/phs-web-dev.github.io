@@ -101,16 +101,18 @@ const { scheduleToday, dateNow } = Astro.props;
         );
       };
 
-      let lastPeriod: string | null = null;
+      let lastStatus: "before" | "during" | "transition" | null = null;
 
       const updateCountdown = () => {
         let headerText: string;
+        let status: "before" | "during" | "transition";
         let secondsUntil: number;
         const secondsNow = getSeconds();
 
         if (secondsNow < schoolStartTime) {
           headerText = "School Will Start In";
           secondsUntil = schoolStartTime - secondsNow;
+          status = "before";
         } else if (secondsNow < schoolEndTime) {
           const currentPeriod = periods.find(
             ({ startTime, endTime }) =>
@@ -118,14 +120,9 @@ const { scheduleToday, dateNow } = Astro.props;
           );
 
           if (currentPeriod) {
-            if (lastPeriod !== currentPeriod.period) {
-              lastPeriod = currentPeriod.period;
-              jsConfetti.addConfetti();
-            } else {
-              lastPeriod = currentPeriod.period;
-            }
             headerText = `${currentPeriod.period} Will End In`;
             secondsUntil = currentPeriod.endTime - secondsNow;
+            status = "during";
           } else {
             const nextPeriod = periods.find(
               ({ startTime }) => secondsNow < startTime
@@ -133,6 +130,7 @@ const { scheduleToday, dateNow } = Astro.props;
             if (nextPeriod) {
               headerText = `${nextPeriod.period} Will Start In`;
               secondsUntil = nextPeriod.startTime - secondsNow;
+              status = "transition";
             } else {
               headerText = "School Is Over";
               header.textContent = headerText;
@@ -142,11 +140,24 @@ const { scheduleToday, dateNow } = Astro.props;
             }
           }
         } else {
+          if (lastStatus === "during") {
+            jsConfetti.addConfetti();
+          }
           headerText = "School Is Over";
           header.textContent = headerText;
           clearInterval(countdownIntervalID);
           counter.style.display = "none";
           return;
+        }
+
+        if (
+          status !== lastStatus &&
+          (lastStatus === "before" || lastStatus === "during")
+        ) {
+          if (status === "transition") {
+            jsConfetti.addConfetti();
+          }
+          lastStatus = status;
         }
 
         header.textContent = headerText;
