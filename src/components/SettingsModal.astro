@@ -2,7 +2,7 @@
 import { Icon } from "astro-icon";
 ---
 
-<astro-settings-modal
+<settings-modal
   class="absolute top-0 left-0 z-50 h-screen w-screen overflow-hidden bg-black/50 justify-center items-center shadow-lg"
   style="display: none"
 >
@@ -11,7 +11,7 @@ import { Icon } from "astro-icon";
       <div class="flex items-center justify-between">
         <h1 class="text-4xl font-bold">Settings</h1>
         <button
-          class="rounded-md bg-neutral-800/25 p-2 transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+          class="rounded-md bg-neutral-800/25 p-2 shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50"
           id="settingsModalCloseButton"
         >
           <Icon pack="mdi" name="close" class="text-white/75 w-7 h-7" />
@@ -20,20 +20,16 @@ import { Icon } from "astro-icon";
       <div class="mt-5">
         <button
           id="secretButton"
-          class="w-full rounded-md bg-neutral-800/25 p-2 text-3xl font-bold shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+          class="shadow-mdtransition-all w-full rounded-md bg-neutral-800/25 p-2 text-3xl font-bold duration-200 ease-linear hover:bg-neutral-800/50"
           >Secret</button
         >
       </div>
     </div>
   </div>
-</astro-settings-modal>
+</settings-modal>
 
 <script>
-  import JSConfetti from "js-confetti";
-
-  const jsConfetti = new JSConfetti();
-
-  class AstroSettingsModal extends HTMLElement {
+  class SettingsModal extends HTMLElement {
     constructor() {
       super();
 
@@ -48,7 +44,7 @@ import { Icon } from "astro-icon";
       const secretButton = this.querySelector("#secretButton") as HTMLElement;
 
       secretButton.addEventListener("click", () => {
-        jsConfetti.addConfetti();
+        window.jsConfetti.addConfetti();
       });
 
       closeButton.addEventListener("click", () => {
@@ -70,5 +66,5 @@ import { Icon } from "astro-icon";
     }
   }
 
-  customElements.define("astro-settings-modal", AstroSettingsModal);
+  customElements.define("settings-modal", SettingsModal);
 </script>

@@ -1,13 +1,4 @@
 ---
-interface Schedule {
-  type: string;
-  periods: {
-    period: string;
-    startTime: number;
-    endTime: number;
-  }[];
-}
-
 interface Props {
   scheduleToday: Schedule | null;
   dateNow: string;
@@ -16,7 +7,7 @@ interface Props {
 const { scheduleToday, dateNow } = Astro.props;
 ---
 
-<astro-countdown
+<schedule-countdown
   data-schedule={JSON.stringify(scheduleToday)}
   data-date={dateNow}
 >
@@ -30,14 +21,10 @@ const { scheduleToday, dateNow } = Astro.props;
     <h1 class="text-6xl">:</h1>
     <h1 class="text-6xl" id="seconds">00</h1>
   </div>
-</astro-countdown>
+</schedule-countdown>
 
 <script>
-  import JSConfetti from "js-confetti";
-
-  const jsConfetti = new JSConfetti();
-
-  class AstroCountdown extends HTMLElement {
+  class ScheduleCountdown extends HTMLElement {
     constructor() {
       super();
 
@@ -72,15 +59,6 @@ const { scheduleToday, dateNow } = Astro.props;
       const counterMinutes = counter.querySelector("#minutes") as HTMLElement;
       const counterSeconds = counter.querySelector("#seconds") as HTMLElement;
 
-      interface Schedule {
-        type: string;
-        periods: {
-          period: string;
-          startTime: number;
-          endTime: number;
-        }[];
-      }
-
       const { periods } = scheduleToday;
       const schoolStartTime = periods[0].startTime;
       const schoolEndTime = periods[periods.length - 1].endTime;
@@ -110,6 +88,7 @@ const { scheduleToday, dateNow } = Astro.props;
         const secondsNow = getSeconds();
 
         if (secondsNow < schoolStartTime) {
+          // Before School
           headerText = "School Will Start In";
           secondsUntil = schoolStartTime - secondsNow;
           status = "before";
@@ -120,28 +99,22 @@ const { scheduleToday, dateNow } = Astro.props;
           );
 
           if (currentPeriod) {
+            // In a period
             headerText = `${currentPeriod.period} Will End In`;
             secondsUntil = currentPeriod.endTime - secondsNow;
             status = "during";
           } else {
             const nextPeriod = periods.find(
               ({ startTime }) => secondsNow < startTime
-            );
-            if (nextPeriod) {
-              headerText = `${nextPeriod.period} Will Start In`;
-              secondsUntil = nextPeriod.startTime - secondsNow;
-              status = "transition";
-            } else {
-              headerText = "School Is Over";
-              header.textContent = headerText;
-              clearInterval(countdownIntervalID);
-              counter.style.display = "none";
-              return;
-            }
+            ) as Period;
+            // Transition
+            headerText = `${nextPeriod.period} Will Start In`;
+            secondsUntil = nextPeriod.startTime - secondsNow;
+            status = "transition";
           }
         } else {
           if (lastStatus === "during") {
-            jsConfetti.addConfetti();
+            window.jsConfetti.addConfetti();
           }
           headerText = "School Is Over";
           header.textContent = headerText;
@@ -150,15 +123,11 @@ const { scheduleToday, dateNow } = Astro.props;
           return;
         }
 
-        if (
-          status !== lastStatus &&
-          (lastStatus === "before" || lastStatus === "during")
-        ) {
-          if (status === "transition") {
-            jsConfetti.addConfetti();
-          }
-          lastStatus = status;
+        // Status changed from during class to transition
+        if (lastStatus === "during" && status === "transition") {
+          window.jsConfetti.addConfetti();
         }
+        lastStatus = status;
 
         header.textContent = headerText;
         const hours = Math.floor(secondsUntil / 3600);
@@ -175,5 +144,5 @@ const { scheduleToday, dateNow } = Astro.props;
     }
   }
 
-  customElements.define("astro-countdown", AstroCountdown);
+  customElements.define("schedule-countdown", ScheduleCountdown);
 </script>
