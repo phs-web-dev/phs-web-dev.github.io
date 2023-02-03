@@ -1,6 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Countdown from "../../components/Countdown.astro";
+import SettingsModal from "../../components/SettingsModal.astro";
 import schedules from "./schedules.json";
+import { Icon } from "astro-icon";
 
 const dateNow = new Date().toLocaleString("en-US", {
   timeZone: "America/New_York",
@@ -21,39 +24,40 @@ const scheduleToday =
   dateNow in schedules ? schedules[dateNow as keyof typeof schedules] : null;
 ---
 
-<Layout title="PHS Web Dev">
-  <main class="lg:max-w-screen-lg max-w-screen-md px-2 mx-auto">
-    <section class="sm:mt-16 mt-8">
-      <h1 class="sm:text-5xl text-4xl font-bold">PHS Schedule</h1>
-    </section>
-    <section class="sm:mt-8 mt-4 bg-neutral-800/25 rounded-md p-5 shadow-md">
-      <astro-countdown
-        data-schedule={JSON.stringify(scheduleToday)}
-        data-date={dateNow}
-      >
-        <h1 class="sm:text-4xl text-2xl font-bold text-center" id="header">
-          LOADING
-        </h1>
-        <div class="flex justify-center" id="counter">
-          <h1 class="text-6xl" id="hours">00</h1>
-          <h1 class="text-6xl">:</h1>
-          <h1 class="text-6xl" id="minutes">00</h1>
-          <h1 class="text-6xl">:</h1>
-          <h1 class="text-6xl" id="seconds">00</h1>
+<Layout title="PHS Web Dev Schedule">
+  <script>
+    import JSConfetti from "js-confetti";
+
+    const jsConfetti = new JSConfetti();
+  </script>
+  <main class="mx-auto max-w-screen-md px-2 lg:max-w-screen-lg">
+    <section class="mt-8 sm:mt-16">
+      <div class="flex items-center justify-between">
+        <h1 class="text-4xl font-bold sm:text-5xl">PHS Schedule</h1>
+        <div class="flex gap-2">
+          <button
+            class="rounded-md bg-neutral-800/25 p-2 transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+            id="settingsModalOpenButton"
+          >
+            <Icon pack="mdi" name="gear" class="text-white/75 w-7 h-7" />
+          </button>
         </div>
-      </astro-countdown>
+      </div>
+    </section>
+    <section class="mt-4 rounded-md bg-neutral-800/25 p-5 shadow-md sm:mt-8">
+      <Countdown scheduleToday={scheduleToday} dateNow={dateNow} />
     </section>
 
-    <section class="sm:mt-8 mt-4">
+    <section class="mt-4 sm:mt-8">
       {
         scheduleToday ? (
           <>
             <div>
-              <div class="sm:flex justify-between items-center">
-                <h1 class="sm:text-4xl text-3xl font-bold">
+              <div class="items-center justify-between sm:flex">
+                <h1 class="text-3xl font-bold sm:text-4xl">
                   {scheduleToday.type} Schedule
                 </h1>
-                <h1 class="sm:text-4xl text-xl text-white/75 ">
+                <h1 class="text-xl text-white/75 sm:text-4xl ">
                   {new Date().toLocaleString("en-US", {
                     timeZone: "America/New_York",
                     weekday: "long",
@@ -63,11 +67,11 @@ const scheduleToday =
                 </h1>
               </div>
             </div>
-            <div class="mt-5 sm:p-6 p-3 bg-neutral-800/25 shadow-md rounded-md ">
+            <div class="mt-5 rounded-md bg-neutral-800/25 p-3 shadow-md sm:p-6 ">
               {scheduleToday.periods.map(({ period, startTime, endTime }) => (
-                <div class="sm:my-4 my-2 first:mt-0 last:mb-0 flex justify-between items-center">
-                  <h1 class="sm:text-3xl text-2xl font-bold">{period}</h1>
-                  <h1 class="sm:text-3xl text-xl text-white/75">
+                <div class="my-2 flex items-center justify-between first:mt-0 last:mb-0 sm:my-4">
+                  <h1 class="text-2xl font-bold sm:text-3xl">{period}</h1>
+                  <h1 class="text-xl text-white/75 sm:text-3xl">
                     {secondsToTime(startTime)} → {secondsToTime(endTime)}
                   </h1>
                 </div>
@@ -80,126 +84,5 @@ const scheduleToday =
       }
     </section>
   </main>
-  <script>
-    class AstroCountdown extends HTMLElement {
-      constructor() {
-        super();
-
-        const header = this.querySelector("#header") as HTMLElement;
-
-        const scheduleToday: Schedule | null = JSON.parse(
-          this.dataset.schedule as string
-        );
-        const counter = this.querySelector("#counter") as HTMLElement;
-
-        if (!scheduleToday) {
-          header.textContent = "No School Today";
-          counter.style.display = "none";
-          return;
-        }
-
-        const date = this.dataset.date;
-
-        const todayDate = new Date().toLocaleString("en-US", {
-          timeZone: "America/New_York",
-          day: "numeric",
-          month: "numeric",
-        });
-
-        if (date !== todayDate) {
-          header.textContent = "School Is Over";
-          counter.style.display = "none";
-          return;
-        }
-
-        const counterHours = counter.querySelector("#hours") as HTMLElement;
-        const counterMinutes = counter.querySelector("#minutes") as HTMLElement;
-        const counterSeconds = counter.querySelector("#seconds") as HTMLElement;
-
-        interface Schedule {
-          type: string;
-          periods: {
-            period: string;
-            startTime: number;
-            endTime: number;
-          }[];
-        }
-
-        const { periods } = scheduleToday;
-        const schoolStartTime = periods[0].startTime;
-        const schoolEndTime = periods[periods.length - 1].endTime;
-
-        const getSeconds = () => {
-          const dateNow = new Date();
-          const timeZoneoffset = -300; // Time zone offset in minutes for Eastern Time
-          const midnightEST = new Date(
-            dateNow.getFullYear(),
-            dateNow.getMonth(),
-            dateNow.getDate()
-          );
-          return Math.floor(
-            (dateNow.getTime() +
-              (dateNow.getTimezoneOffset() + timeZoneoffset) * 60 * 1000 -
-              midnightEST.getTime()) /
-              1000
-          );
-        };
-
-        const updateCountdown = () => {
-          let headerText: string;
-          let secondsUntil: number;
-          const secondsNow = getSeconds();
-
-          if (secondsNow < schoolStartTime) {
-            headerText = "School Will Start In";
-            secondsUntil = schoolStartTime - secondsNow;
-          } else if (secondsNow < schoolEndTime) {
-            const currentPeriod = periods.find(
-              ({ startTime, endTime }) =>
-                secondsNow >= startTime && secondsNow < endTime
-            );
-
-            if (currentPeriod) {
-              headerText = `${currentPeriod.period} Will End In`;
-              secondsUntil = currentPeriod.endTime - secondsNow;
-            } else {
-              const nextPeriod = periods.find(
-                ({ startTime }) => secondsNow < startTime
-              );
-              if (nextPeriod) {
-                headerText = `${nextPeriod.period} Will Start In`;
-                secondsUntil = nextPeriod.startTime - secondsNow;
-              } else {
-                headerText = "School Is Over";
-                header.textContent = headerText;
-                clearInterval(countdownIntervalID);
-                counter.style.display = "none";
-                return;
-              }
-            }
-          } else {
-            headerText = "School Is Over";
-            header.textContent = headerText;
-            clearInterval(countdownIntervalID);
-            counter.style.display = "none";
-            return;
-          }
-
-          header.textContent = headerText;
-          const hours = Math.floor(secondsUntil / 3600);
-          const minutes = Math.floor((secondsUntil % 3600) / 60);
-          const seconds = secondsUntil % 60;
-
-          counterHours.textContent = hours.toString().padStart(2, "0");
-          counterMinutes.textContent = minutes.toString().padStart(2, "0");
-          counterSeconds.textContent = seconds.toString().padStart(2, "0");
-        };
-        const countdownIntervalID = setInterval(updateCountdown, 1000);
-
-        updateCountdown();
-      }
-    }
-
-    customElements.define("astro-countdown", AstroCountdown);
-  </script>
 </Layout>
+<SettingsModal />

@@ -1,42 +1,42 @@
 {
-    "short_name": "PHS Web Dev",
-    "name": "Poolesville High School Website Development Club's Official Website",
-    "description": "The official website of the Poolesville High School Website Development Club. We are a club that teaches students how to code and build websites. We also build websites for PHS clubs and organizations.",
-    "icons": [
+  "short_name": "PHS Web Dev",
+  "name": "Poolesville High School Website Development Club's Official Website",
+  "description": "The official website of the Poolesville High School Website Development Club. We are a club that teaches students how to code and build websites. We also build websites for PHS clubs and organizations.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/favicon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#1B1B1B",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#1B1B1B",
+  "shortcuts": [
+    {
+      "name": "Poolesville High School Schedule",
+      "short_name": "Schedule",
+      "description": "View a countdown to the next class and see the schedule for the day",
+      "url": "/schedule?source=pwa",
+      "icons": [
         {
-            "src": "/favicon.svg",
-            "type": "image/svg+xml",
-            "sizes": "512x512"
-        },
-        {
-            "src": "/favicon192.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "/favicon512.png",
-            "type": "image/png",
-            "sizes": "512x512"
+          "src": "/favicon192.png",
+          "sizes": "192x192"
         }
-    ],
-    "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
-    "background_color": "#1B1B1B",
-    "display": "standalone",
-    "scope": "/",
-    "theme_color": "#1B1B1B",
-    "shortcuts": [
-        {
-            "name": "Poolesville High School Schedule",
-            "short_name": "Schedule",
-            "description": "View a countdown to the next class and see the schedule for the day",
-            "url": "/schedule?source=pwa",
-            "icons": [
-                {
-                    "src": "/favicon192.png",
-                    "sizes": "192x192"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
