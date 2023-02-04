@@ -12,13 +12,14 @@ const { setting, defaultValue } = Astro.props;
   data-defaultvalue={JSON.stringify(defaultValue)}
 >
   <button
-    class={`inline-flex h-[38px] w-[74px] rounded-full border-2 border-transparent ${
+    aria-label={`Toggle ${setting} setting`}
+    class={`inline-flex h-[38px] w-[74px] rounded-full border-2 border-transparent  ${
       defaultValue ? "bg-neutral-800" : "bg-neutral-800/25"
-    } shadow-md transition-colors duration-200 ease-in-out`}
+    } shadow-md transition-colors duration-200 ease-in-out touch-manipulation`}
   >
     <span
-      class={`h-[34px] w-[34px] translate-x-0 rounded-full ${
-        defaultValue ? "bg-green-200" : "bg-red-200"
+      class={`h-[34px] w-[34px] rounded-full ${
+        defaultValue ? "bg-green-200 translate-x-9" : "bg-red-200 translate-x-0"
       } shadow-lg transition duration-200 ease-in-out`}
     >
     </span>
