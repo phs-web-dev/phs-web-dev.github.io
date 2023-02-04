@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon";
 ---
 
 <Layout title="PHS Web Dev">
@@ -15,11 +16,12 @@ import Layout from "../layouts/Layout.astro";
       </div>
       <div class="mt-5 flex sm:mt-8">
         <a
-          class="inline-block rounded-md bg-neutral-800/25 px-4 py-2 text-center text-3xl font-bold shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+          class="flex items-center gap-4 rounded-md bg-neutral-800/25 px-4 py-2 text-3xl font-bold shadow-md transition-colors duration-200 ease-linear hover:bg-neutral-800/50"
           href="https://discord.gg/rWqEaqvnpf"
         >
-          Join Now</a
-        >
+          Join Now
+          <Icon pack="ic" name="baseline-discord" class="w-7 h-7" />
+        </a>
       </div>
     </section>
   </main>

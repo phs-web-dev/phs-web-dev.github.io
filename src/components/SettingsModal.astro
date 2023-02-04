@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon";
+import Switch from "./Switch.astro";
 ---
 
 <settings-modal
@@ -11,18 +12,17 @@ import { Icon } from "astro-icon";
       <div class="flex items-center justify-between">
         <h1 class="text-4xl font-bold">Settings</h1>
         <button
-          class="rounded-md bg-neutral-800/25 p-2 shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+          class="rounded-md bg-neutral-800/25 p-2 shadow-md transition-colors duration-200 ease-in-out hover:bg-neutral-800/50"
           id="settingsModalCloseButton"
         >
           <Icon pack="mdi" name="close" class="text-white/75 w-7 h-7" />
         </button>
       </div>
       <div class="mt-5">
-        <button
-          id="secretButton"
-          class="shadow-mdtransition-all w-full rounded-md bg-neutral-800/25 p-2 text-3xl font-bold duration-200 ease-linear hover:bg-neutral-800/50"
-          >Secret</button
-        >
+        <div class="flex justify-between">
+          <h1 class="text-2xl text-white/75">Confetti Enabled</h1>
+          <Switch setting="confetti" defaultValue={true} />
+        </div>
       </div>
     </div>
   </div>
@@ -33,35 +33,29 @@ import { Icon } from "astro-icon";
     constructor() {
       super();
 
+      this.addEventListener("click", (e) => {
+        if (e.target === this) {
+          this.style.display = "none";
+          document.body.style.overflow = "auto";
+        }
+      });
+
       const openButton = document.getElementById(
         "settingsModalOpenButton"
       ) as HTMLElement;
-
-      const closeButton = this.querySelector(
-        "#settingsModalCloseButton"
-      ) as HTMLElement;
-
-      const secretButton = this.querySelector("#secretButton") as HTMLElement;
-
-      secretButton.addEventListener("click", () => {
-        window.jsConfetti.addConfetti();
-      });
-
-      closeButton.addEventListener("click", () => {
-        this.style.display = "none";
-        document.body.style.overflow = "auto";
-      });
 
       openButton.addEventListener("click", () => {
         this.style.display = "flex";
         document.body.style.overflow = "hidden";
       });
 
-      this.addEventListener("click", (e) => {
-        if (e.target === this) {
-          this.style.display = "none";
-          document.body.style.overflow = "auto";
-        }
+      const closeButton = this.querySelector(
+        "#settingsModalCloseButton"
+      ) as HTMLElement;
+
+      closeButton.addEventListener("click", () => {
+        this.style.display = "none";
+        document.body.style.overflow = "auto";
       });
     }
   }

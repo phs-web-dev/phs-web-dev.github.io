@@ -114,7 +114,7 @@ const { scheduleToday, dateNow } = Astro.props;
           }
         } else {
           if (lastStatus === "during") {
-            window.jsConfetti.addConfetti();
+            window.addConfetti();
           }
           headerText = "School Is Over";
           header.textContent = headerText;
@@ -125,7 +125,7 @@ const { scheduleToday, dateNow } = Astro.props;
 
         // Status changed from during class to transition
         if (lastStatus === "during" && status === "transition") {
-          window.jsConfetti.addConfetti();
+          window.addConfetti();
         }
         lastStatus = status;
 

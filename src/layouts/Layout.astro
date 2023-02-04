@@ -20,6 +20,18 @@ const { title } = Astro.props;
     <meta name="theme-color" content="#1B1B1B" />
     <link rel="apple-touch-icon" href="/favicon192.png" />
     <title>{title}</title>
+    <script>
+      // If LocalStorage is corrupted, clear it
+      window.addEventListener("error", (e) => {
+        if (
+          e.message.includes("Unexpected token") &&
+          e.message.includes("is not valid JSON")
+        ) {
+          localStorage.clear();
+        }
+        window.location.reload();
+      });
+    </script>
   </head>
   <body>
     <nav class="w-screen bg-neutral-800/25 shadow-md">
@@ -35,7 +47,9 @@ const { title } = Astro.props;
     <slot />
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js");
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
       }
     </script>
   </body>

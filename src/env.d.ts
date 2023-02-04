@@ -4,10 +4,10 @@ import type JSConfetti from "js-confetti";
 
 declare global {
   interface Window {
-    jsConfetti: JSConfetti;
+    addConfetti: () => void;
   }
 
-  // 
+  //
   interface Schedule {
     type: string;
     periods: Period[];

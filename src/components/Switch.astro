@@ -1,0 +1,94 @@
+---
+interface Props {
+  setting: string;
+  defaultValue: boolean;
+}
+
+const { setting, defaultValue } = Astro.props;
+---
+
+<settings-switch
+  data-setting={setting}
+  data-defaultvalue={JSON.stringify(defaultValue)}
+>
+  <button
+    class={`inline-flex h-[38px] w-[74px] rounded-full border-2 border-transparent ${
+      defaultValue ? "bg-neutral-800" : "bg-neutral-800/25"
+    } shadow-md transition-colors duration-200 ease-in-out`}
+  >
+    <span
+      class={`h-[34px] w-[34px] translate-x-0 rounded-full ${
+        defaultValue ? "bg-green-200" : "bg-red-200"
+      } shadow-lg transition duration-200 ease-in-out`}
+    >
+    </span>
+  </button>
+</settings-switch>
+
+<script>
+  class SettingsSwitch extends HTMLElement {
+    constructor() {
+      super();
+
+      const setting = this.dataset.setting as string;
+      const defaultValue = JSON.parse(
+        this.dataset.defaultvalue as string
+      ) as boolean;
+
+      const statusLocalStorage = localStorage.getItem(setting);
+
+      let status: boolean;
+      if (statusLocalStorage === null) {
+        // If nothing is in local storage, set it to the default value
+        if (defaultValue) {
+          status = true;
+          localStorage.setItem(setting, JSON.stringify(status));
+        } else {
+          status = false;
+          localStorage.setItem(setting, JSON.stringify(status));
+        }
+      } else {
+        status = Boolean(JSON.parse(statusLocalStorage));
+      }
+
+      const switchButton = this.querySelector("button") as HTMLButtonElement;
+      const switchKnob = switchButton.querySelector("span") as HTMLSpanElement;
+
+      const formatKnob = (setup = false) => {
+        if (status) {
+          // Enabled
+          switchKnob.classList.add("translate-x-9");
+          switchKnob.classList.remove("translate-x-0");
+          switchKnob.classList.add("bg-green-200");
+          switchKnob.classList.remove("bg-red-200");
+          switchButton.classList.remove("bg-neutral-800/25");
+          switchButton.classList.add("bg-neutral-800");
+
+          if (setting === "confetti" && !setup) {
+            window.addConfetti();
+          }
+        } else {
+          // Disabled
+          switchKnob.classList.add("translate-x-0");
+          switchKnob.classList.remove("translate-x-9");
+          switchKnob.classList.add("bg-red-200");
+          switchKnob.classList.remove("bg-green-200");
+          switchButton.classList.remove("bg-neutral-800");
+          switchButton.classList.add("bg-neutral-800/25");
+        }
+      };
+
+      formatKnob(true);
+
+      switchButton.addEventListener("click", () => {
+        status = !status;
+
+        localStorage.setItem(setting, JSON.stringify(status));
+
+        formatKnob();
+      });
+    }
+  }
+
+  customElements.define("settings-switch", SettingsSwitch);
+</script>

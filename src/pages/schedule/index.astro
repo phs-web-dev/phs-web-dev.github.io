@@ -28,7 +28,13 @@ const scheduleToday: Schedule | null =
   <script>
     import JSConfetti from "js-confetti";
 
-    window.jsConfetti = new JSConfetti();
+    const jsConfetti = new JSConfetti();
+
+    const addConfetti = () => {
+      if (localStorage.getItem("confetti") === "true") jsConfetti.addConfetti();
+    };
+
+    window.addConfetti = addConfetti;
   </script>
   <main class="mx-auto max-w-screen-md px-2 lg:max-w-screen-lg">
     <section class="mt-8 sm:mt-16">
@@ -36,7 +42,7 @@ const scheduleToday: Schedule | null =
         <h1 class="text-4xl font-bold sm:text-5xl">PHS Schedule</h1>
         <div class="flex gap-2">
           <button
-            class="rounded-md bg-neutral-800/25 p-2 shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50"
+            class="rounded-md bg-neutral-800/25 p-2 shadow-md transition-colors duration-200 ease-linear hover:bg-neutral-800/50"
             id="settingsModalOpenButton"
           >
             <Icon pack="mdi" name="gear" class="text-white/75 w-7 h-7" />
@@ -84,4 +90,5 @@ const scheduleToday: Schedule | null =
       }
     </section>
   </main>
+  <SettingsModal />
 </Layout>
