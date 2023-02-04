@@ -1,16 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Image } from "@astrojs/image/components";
 ---
 
 <Layout title="PHS Web Dev">
   <main class="mx-auto max-w-screen-md px-2 lg:max-w-screen-lg">
     <section class="mt-8 sm:mt-32">
       <div>
-        <h1 class="text-5xl font-bold sm:text-5xl lg:text-7xl">
+        <h1 class="text-3xl font-bold sm:text-5xl lg:text-7xl">
           Poolesville High School's
         </h1>
-        <h1 class="text-3xl text-white/75 sm:text-4xl lg:text-6xl">
+        <h1 class="text-2xl text-white/75 sm:text-4xl lg:text-6xl">
           Website Development Club
         </h1>
       </div>
@@ -21,29 +20,6 @@ import { Image } from "@astrojs/image/components";
         >
           Join Now</a
         >
-      </div>
-    </section>
-    <section class="mt-8">
-      <div
-        class="flex flex-wrap justify-center gap-8 sm:justify-start sm:gap-4 md:gap-4 lg:gap-6"
-      >
-        <a
-          class="flex w-full items-center justify-center rounded-md bg-neutral-800/25 px-3 py-9 shadow-md transition-all duration-200 ease-linear hover:bg-neutral-800/50 sm:w-60 md:w-60 lg:w-80"
-          href="/schedule"
-        >
-          <div>
-            <h1 class="text-center text-4xl font-bold sm:text-3xl lg:text-4xl">
-              PHS Schedule
-            </h1>
-            <Image
-              width={296}
-              height={214}
-              src="/schedule.webp"
-              alt="Schedule"
-              class="mt-5 rounded-md shadow-md"
-            />
-          </div>
-        </a>
       </div>
     </section>
   </main>
