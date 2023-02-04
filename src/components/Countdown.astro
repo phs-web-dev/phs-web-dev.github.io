@@ -1,6 +1,6 @@
 ---
 interface Props {
-  scheduleToday: Schedule | null;
+  scheduleToday: Schedule;
   dateNow: string;
 }
 
@@ -30,16 +30,10 @@ const { scheduleToday, dateNow } = Astro.props;
 
       const header = this.querySelector("#header") as HTMLElement;
 
-      const scheduleToday: Schedule | null = JSON.parse(
+      const scheduleToday: Schedule = JSON.parse(
         this.dataset.schedule as string
       );
       const counter = this.querySelector("#counter") as HTMLElement;
-
-      if (!scheduleToday) {
-        header.textContent = "No School Today";
-        counter.style.display = "none";
-        return;
-      }
 
       const date = this.dataset.date;
 
