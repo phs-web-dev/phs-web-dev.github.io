@@ -30,11 +30,9 @@ const scheduleToday: Schedule | null =
 
     const jsConfetti = new JSConfetti();
 
-    const addConfetti = () => {
+    window.addConfetti = () => {
       if (localStorage.getItem("confetti") === "true") jsConfetti.addConfetti();
     };
-
-    window.addConfetti = addConfetti;
   </script>
   <main class="mx-auto max-w-screen-md px-2 lg:max-w-screen-lg">
     <section class="mt-8 sm:mt-16">
@@ -90,8 +88,10 @@ const scheduleToday: Schedule | null =
       ) : (
         <section class="mt-3 sm:mt-5">
           <div class="items-center justify-between rounded-md bg-neutral-800/25 p-3 shadow-md sm:flex">
-            <h1 class="text-4xl font-bold sm:text-6xl">No School Today</h1>
-            <h1 class="text-3xl text-white/75 sm:text-4xl">
+            <h1 class="text-4xl font-bold sm:text-4xl ">
+              No School Today
+            </h1>
+            <h1 class="text-2xl text-white/75 sm:text-2xl ">
               {new Date().toLocaleString("en-US", {
                 timeZone: "America/New_York",
                 weekday: "long",
